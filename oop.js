@@ -1,11 +1,24 @@
+const _private 0 new WeakMap()
+
+
+
 // nombre de la clase mayusculas
  // instancia de Book
-class Book{
+
+
+ class Book{
     constructor(title,autor,precio){
     this._title=title;
-    this.autor=autor;
-    this.precio=precio;
+    this._autor=autor;
+    this._precio=precio;
+
+    _private.set()
+    _private.get()
+    
     }
+}
+class Seller{
+
 }
 
 
