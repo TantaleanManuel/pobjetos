@@ -9,7 +9,6 @@ class Book{
 }
 
 
-
  // instancia de Book
  const book1= new Book1("1984", "G.O", 359);
  const book2= new Book1("Frankenstein", "M.S", 200);
