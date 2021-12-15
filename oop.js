@@ -3,18 +3,24 @@ const _private 0 new WeakMap()
 
 
 // nombre de la clase mayusculas
- // instancia de Book
+// instancia de Book
 
 
  class Book{
     constructor(title,autor,precio){
-    this._title=title;
-    this._autor=autor;
-    this._precio=precio;
+ //   this._title=title;
+ //   this._autor=autor;
+ //   this._precio=precio;
 
-    _private.set()
-    _private.get()
-    
+// creacion de objeto y propiedades
+ const properties = {
+    _title: title,
+    _autor: autor,
+    _precio: precio,
+    }
+
+
+    _private.set(this, {properties});
     }
 }
 class Seller{
@@ -30,9 +36,6 @@ class Seller{
  console.log(book1._autor);
  console.log(book1._precio);
 
- console.log(book2._title);
- console.log(book2._autor);
- console.log(book2._precio);
 
 
 
