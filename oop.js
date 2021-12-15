@@ -1,4 +1,4 @@
-const _private = new WeakMap()
+const _private = new WeakMap();
 
 // nombre de la clase mayusculas
 // instancia de Book
@@ -11,6 +11,7 @@ const _private = new WeakMap()
         _autor: autor,
         _precio: precio
     }
+
     _private.set(this, {properties})
    
 }
