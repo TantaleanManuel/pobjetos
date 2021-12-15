@@ -1,28 +1,25 @@
-const _private 0 new WeakMap()
-
-
+const _private = new WeakMap()
 
 // nombre de la clase mayusculas
 // instancia de Book
 
-
  class Book{
-    constructor(title,autor,precio){
- //   this._title=title;
- //   this._autor=autor;
- //   this._precio=precio;
-
-// creacion de objeto y propiedades
- const properties = {
-    _title: title,
-    _autor: autor,
-    _precio: precio,
+    constructor(title, autor, precio) {
+    
+        const properties = {
+        #title: title,
+        _autor: autor,
+        _precio: precio
     }
-
-
-    _private.set(this, {properties});
-    }
+    _private.set(this, {properties})
+   
 }
+
+   get title(){};
+   get precio(){};
+
+}
+
 class Seller{
 
 }
