@@ -16,3 +16,9 @@ class Book{
  console.log(book1._autor);
  console.log(book1._precio);
 
+ console.log(book2._title);
+ console.log(book2._autor);
+ console.log(book2._precio);
+
+
+
