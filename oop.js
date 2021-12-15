@@ -1,10 +1,10 @@
 // nombre de la clase mayusculas
  // instancia de Book
 class Book{
-    constructor(a,b,c){
-    this._title="1984";
-    this.autor="George Orwell";
-    this.precio=350;
+    constructor(title,autor,precio){
+    this._title=title;
+    this.autor=autor;
+    this.precio=precio;
 
 
 
