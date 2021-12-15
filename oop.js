@@ -5,6 +5,8 @@ class Book{
     this._title=title;
     this.autor=autor;
     this.precio=precio;
+    }
+}
 
 
 
